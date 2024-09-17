@@ -1,5 +1,46 @@
 # Getting Started with Create React App
 
+# Task Manager React App
+
+This is a simple **Task Manager** application built with **React**. It allows users to add, edit, complete, and delete tasks interactively using React's `useState` for state management.
+
+---
+
+## Features:
+- **Add Tasks**: Users can input and add tasks to the list.
+- **Mark Complete/Incomplete**: Tasks can be marked as completed or incomplete with a click.
+- **Edit Tasks**: Users can edit existing tasks through an edit form.
+- **Delete Tasks**: Tasks can be permanently removed.
+- **Minimal UI**: Includes modern UI design with **FontAwesome** icons for edit and delete functionality, along with blur and transparency effects.
+
+---
+
+## Technologies:
+- **React** for building interactive UIs.
+- **useState** for managing state.
+- **FontAwesome** for icons.
+- **UUID** for generating unique task IDs.
+- **CSS** for styling with modern visual effects.
+
+---
+
+## Project Structure:
+- **`Todo.js`**: Displays an individual task with options to edit, complete, or delete.
+- **`TodoForm.js`**: The form to add new tasks.
+- **`TodoWrapper.js`**: Main component managing all tasks and their state.
+- **`EditTodoForm.js`**: Form for editing existing tasks.
+
+
+
+
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
